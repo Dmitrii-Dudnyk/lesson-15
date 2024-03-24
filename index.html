@@ -3,29 +3,29 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./styles/main.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles/main.css">
 		<title>Document</title>
 	</head>
 	<body class="body">
 		<header class="header">
 			<div class="container">
 				<div class="header__content">
-					<nav class="header__nav">
-						<a class="header__logo-link" href="">
-							<svg class="header__logo">
+					<nav class="nav">
+						<a class="logo-link" href="">
+							<svg class="logo">
 								<use href="./images/logo.svg#icon-logo"></use>
 							</svg>
 						</a>
-						<ul class="header__nav-list">
-							<li class="header__nav-item"><a class="header__nav-link header__nav-link_active" href="">Home</a></li>
-							<li class="header__nav-item">
-								<a class="header__nav-link" href=""><span class="header__nav-count">20</span>Projects</a>
+						<ul class="nav__list">
+							<li class="nav__item"><a class="nav__link nav__link_active" href="">Home</a></li>
+							<li class="nav__item">
+								<a class="nav__link" href=""><span class="nav__count">20</span>Projects</a>
 							</li>
-							<li class="header__nav-item"><a class="header__nav-link" href="">About</a></li>
-							<li class="header__nav-item"><a class="header__nav-link" href="">Contact</a></li>
+							<li class="nav__item"><a class="nav__link" href="">About</a></li>
+							<li class="nav__item"><a class="nav__link" href="">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -34,18 +34,17 @@
 		<main class="main-content">
 			<section class="intro">
 				<div class="container">
-					<h1 class="intro__title title-2xl">Websites& Branding</h1>
-					<div class="scroll">
+					<h1 class="intro__title title-2xl">Websites& Branding
 						<button class="scroll__button">SCROLL DOWN
-						   <svg class="arrow-icon arrow-icon_top">
-							  <use href="./images/arrow.svg#icon-arrow"></use>
-						   </svg>
+							<svg class="arrow-icon arrow-icon_top">
+								<use href="./images/arrow.svg#icon-arrow"></use>
+							</svg>
 						</button>
-					</div>
+					</h1>
 					<div class="intro__info">
 						<div class="intro__email">
 							<h2 class="intro__email-title title-h4">Let’s Talk</h2>
-							<a class="intro__email-link" href="">hello@joey.co</a>
+							<a class="intro__email-link" href="mailto:hello@joey.co">hello@joey.co</a>
 						</div>
 						<p class="intro__description">Hello, I'm Joey, an online product designer focusing on brand identity, advertising, and no-code instruments.</p>
 					</div>
@@ -58,7 +57,7 @@
 							<h2 class="projects__title title-h2">Projects</h2>
 							<p class="projects__description">As a seasoned creator of contemporary, user-friendly web designs and digital solutions, I aim to assist you in constructing the brand of your fantasies.</p>
 						</div>
-						<a class="projects__button title-h5" href="">More
+						<a class="projects__button" href="">More
 							<svg class="arrow-icon arrow-icon_right">
 								<use href="./images/arrow.svg#icon-arrow"></use>
 							</svg>
@@ -67,22 +66,22 @@
 					<div class="projects__cards">
 						<div class="projects__card">
 							<img class="projects__card-img" src="./images/projects-card-1.png" width="590" height="500" alt="Crtly">
-							<h3 class="projects__card-title title-h5">Crtly</h3>
+							<h3 class="title-h5">Crtly</h3>
 							<p class="projects__card-description">Mobile App</p>
 						</div>
 						<div class="projects__card">
 							<img class="projects__card-img" src="./images/projects-card-2.png" width="590" height="500" alt="Tansto">
-							<h3 class="projects__card-title title-h5">Tansto</h3>
+							<h3 class="title-h5">Tansto</h3>
 							<p class="projects__card-description">Web Design</p>
 						</div>
 						<div class="projects__card">
 							<img class="projects__card-img" src="./images/projects-card-3.png" width="590" height="500" alt="Senta">
-							<h3 class="projects__card-title title-h5">Senta</h3>
+							<h3 class="title-h5">Senta</h3>
 							<p class="projects__card-description">Mobile App & Branding</p>
 							</div>
 						<div class="projects__card">
 							<img class="projects__card-img" src="./images/projects-card-4.png" width="590" height="500" alt="Crint">
-							<h3 class="projects__card-title title-h5">Crint</h3>
+							<h3 class="title-h5">Crint</h3>
 							<p class="projects__card-description">Mobile App</p>
 						</div>
 					</div>
@@ -120,7 +119,7 @@
 				<div class="container">
 					<h2 class="testimonials__title title-h2">Testimonials</h2>
 					<div class="testimonials__quote">
-						<p class="testimonials__quote-text title-h6">“Joey is a remarkable artist. He grasps abstract ideas and transforms them into exceptional visuals. Throughout the years, I've witnessed him produce everything from small symbols to comprehensive adaptive web pages. He has crafted clothing items like tees and caps, promotional products, and professional literature.”</p>
+						<p class="testimonials__quote-text">“Joey is a remarkable artist. He grasps abstract ideas and transforms them into exceptional visuals. Throughout the years, I've witnessed him produce everything from small symbols to comprehensive adaptive web pages. He has crafted clothing items like tees and caps, promotional products, and professional literature.”</p>
 						<div class="testimonials__author">
 							<h3 class="testimonials__author-title title-h5">Chris Ellington</h3>
 							<p class="testimonials__author-description">Product Lead,Gatha.</p>
@@ -133,7 +132,7 @@
 			<div class="container">
 				<div class="footer__action">
 					<h2 class="footer__title title-xl">Let’s talk!</h2>
-					<a class="footer__email-link title-h5" href="">hello@joey.co
+					<a class="footer__email-link" href="mailto:hello@joey.co">hello@joey.co
 						<svg class="arrow-icon arrow-icon_top-right">
 						  <use href="./images/arrow.svg#icon-arrow"></use>
 						</svg>
@@ -142,9 +141,9 @@
 				<div class="footer__info text-m">
 					<p class="footer__text">2023 &copy; — Made by Djectstudio</p>
 					 <div class="footer__social">
-						<a class="footer__social-item">Dribbble</a>
-						<a class="footer__social-item">Instagram</a>
-						<a class="footer__social-item">LinkedIn</a>
+						<a class="footer__social-item" href="">Dribbble</a>
+						<a class="footer__social-item" href="">Instagram</a>
+						<a class="footer__social-item" href="">LinkedIn</a>
 					 </div>
 				</div>
 			</div>

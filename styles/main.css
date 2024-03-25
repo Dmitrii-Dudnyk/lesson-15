@@ -159,10 +159,14 @@ a {
     text-align: center;
 }
 
+.logo-link {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
 .logo {
     width: 92px;
     height: 32px;
-    margin-bottom: 40px;
     fill: currentColor;
     color: var(--primary-color);
 }
